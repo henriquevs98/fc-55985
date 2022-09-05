@@ -65,12 +65,3 @@ def modelo_unet(IMG_HEIGHT, IMG_WIDTH, IMG_CHANNELS):
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
     return model
-
-
-
-
-
-
-
-
-
