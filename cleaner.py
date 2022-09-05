@@ -9,7 +9,6 @@ import numpy as np
 import cv2
 import tifffile as tiff
 
-
 def remocao_maskbin0(extensao, caminho): #remover máscaras binárias que não contêm 1's
     mask_array = []
     imagens_dir = os.listdir(caminho)
