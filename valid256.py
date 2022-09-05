@@ -59,9 +59,6 @@ elif exp == '4':
 img =  cv2.imread(img_in, cv2.IMREAD_UNCHANGED)
 img = img[:,:,0:3]
 
-if exp == '3' or exp == '4':
-    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
-
 y_pred = tf.keras.utils.normalize(np.array(img), axis=1)
 y_pred = np.expand_dims(y_pred, 0)
 y_pred = (model.predict(y_pred)[0,:,:,0] > threshold).astype(np.uint8) * 255
