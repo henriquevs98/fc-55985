@@ -1,5 +1,5 @@
 # fc-55985
-Conjunto de programas desenvolvidos na tese do mestrado em Engenharia Geoespacial para aplicação de arquitetura Unet para segmentação automática de imagens aéreas e espaciais.
+Conjunto de programas desenvolvidos na tese do mestrado em Engenharia Geoespacial (2022) para aplicação de arquitetura Unet para segmentação automática de imagens aéreas e espaciais.
 
 
 ![image](https://user-images.githubusercontent.com/110188794/188472163-bfe7ee11-66d7-461c-b181-1baa84642037.png)
