@@ -4,7 +4,6 @@ Faculdade de Ciências da Universidade de Lisboa
 Tese Engenharia Geoespacial 2021/2022
 """
 
-
 import os
 import numpy as np
 import cv2
@@ -46,12 +45,9 @@ def comparacao_remocao_img(extensao, mask_path, img_path, pathtosave): #remover 
         print(str(i))
         tiff.imwrite(pathtosave + str(img[i]), array[i])
                 
-
 remocao_maskbin0('tif', 
                   'E:/recmsk/')
 
 comparacao_remocao_img('tif', 'E:/recmsk', 
                         'E:/edificios/AIRS/recimg/',
                         'E:/edificios/recimg/')
-
-
